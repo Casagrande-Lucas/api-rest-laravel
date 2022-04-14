@@ -7,6 +7,11 @@ git clone https://github.com/Casagrande-Lucas/teste-api.git
 ~~~
 
 * Configure o arquivo .env
+* Rode o comando do composer para baixar os pacotes.
+~~~composer
+composer update && composer install
+~~~
+
 * No terminal rode o comando artisan
 ~~~php
 php artisan migrate:fresh --seed
